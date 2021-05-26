@@ -1,0 +1,67 @@
+:root {
+  --background-color: #ffffff;
+  --accent-color: #ff6c00;
+  --main-font-family: Open Sans;
+  --title-font-family: Raleway;
+  --title-color: #303030;
+}
+body {
+  background-color: var(--background-color);
+  color: var;
+  font-family: Open Sans;
+  font-style: normal;
+}
+.header {
+  background: rgba(25, 28, 38, 0.2);
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  color: var(--background-color);
+  text-decoration: none;
+}
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--accent-color);
+}
+
+.button-record {
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  background-color: transparent;
+  padding: 12px 20px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.hero {
+  background: rgba(25, 28, 38, 0.2);
+}
+.pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero .title {
+  color: var(--background-color);
+  font-family: var(--title-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 85px;
+  letter-spacing: 0.05em;
+}
+.text {
+  color: #555555;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+.button {
+}
