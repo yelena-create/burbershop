@@ -108,6 +108,7 @@ a {
   padding: 40px 55px;
 }
 .sidebar {
+  align-items: flex-end;
   padding: 40px 50px;
 }
 .hero-text {
@@ -170,7 +171,7 @@ a {
   color: var(--background-color);
   border-bottom: 1px solid var(--background-color);
 }
-/* contakts section */
+/* ------------contakts section */
 .about .container {
   display: flex;
   padding: 137px 64px 119px;
@@ -191,7 +192,38 @@ a {
 .contakts {
   background-color: #191c26;
 }
-/* features-section */
+/* -----------price section */
+.price .container {
+  background: #111319;
+  padding: 130px 55px;
+}
+.price .pre-title {
+  color: rgba(157, 164, 189, 0.6);
+}
+.price .title {
+  color: var(--background-color);
+}
+
+.tables-wrapper {
+  display: flex;
+  justify-content: center;
+  color: #9da4bd;
+}
+table {
+  padding: 30px 40px;
+  width: 585px;
+  height: 240px;
+  background: linear-gradient(180deg, #090b13 0%, rgba(9, 11, 19, 0.2) 100%);
+}
+.invisible {
+  font-size: 0;
+  line-height: 0px;
+}
+.price .button-sign-up {
+  color: #ffffff;
+  margin-top: 50px;
+}
+/*----------features-section */
 .features-section {
 }
 .footer {
